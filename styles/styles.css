@@ -1,0 +1,71 @@
+body{
+
+    background-color: bisque;
+    
+    text-align: center;
+}
+
+h2{
+
+  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+
+}
+
+
+.square{
+
+    width: 100px;
+    height: 100px;
+    background-color: rgb(97, 96, 94);
+    border: 1px solid rgb(252, 247, 247);
+    border-radius: 5px;
+    display: inline-block;
+    
+   
+}
+
+.o{
+    position: relative;
+}
+
+.o:after{
+    position: absolute;
+    content:"\1F480";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.x{
+    position: relative;
+}
+
+.x:after{
+    position: absolute;
+    content:"\2b50";
+    font-size: 70px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+}
+
+.botao-reset{
+
+    background-color: burlywood;
+    width: 200px;
+    height: 60px;
+    border-radius: 12px;
+    margin: 30px;
+    border: 1px;
+    color:white;
+}
